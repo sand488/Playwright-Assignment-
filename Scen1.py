@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from playwright.sync_api import expect
 def test_get_by_label(page):
     page.goto("https://demowebshop.tricentis.com/")
