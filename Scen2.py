@@ -15,7 +15,7 @@ async def test_bank(async_page):
     await async_page.locator("#customer\\.address\\.zipCode").fill("560047")
     await async_page.locator("#customer\\.phoneNumber").fill("8848508634")
     await async_page.locator("#customer\\.ssn").fill("12345678")
-    await async_page.locator("#customer\\.username").fill("Sandy12390")
+    await async_page.locator("#customer\\.username").fill("Sandy1239000")
     await async_page.locator("#customer\\.password").fill("123456785676")
     await async_page.locator("#repeatedPassword").fill("123456785676")
 
@@ -42,7 +42,7 @@ async def test_open_new_account(async_page):
     # Login to ParaBank
     await async_page.goto( "https://parabank.parasoft.com/parabank/index.htm")
 
-    await async_page.locator("//input[@name='username']").fill("Sandy12390")
+    await async_page.locator("//input[@name='username']").fill("Sandy1239000")
 
     await async_page.locator("//input[@name='password']").fill("123456785676")
 
