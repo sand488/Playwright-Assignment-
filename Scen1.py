@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from playwright.sync_api import expect
 def test_get_by_label(page):
     page.goto("https://demowebshop.tricentis.com/")
@@ -9,4 +10,3 @@ def test_get_by_label(page):
     page.get_by_label("Email:").fill("sandyabhaskar1@gmail.com")
     page.get_by_label("Password:").nth(0).fill("san899")
     page.wait_for_timeout(1000)
-    
